@@ -40,6 +40,7 @@ sum += getSleepHours("friday");
 sum += getSleepHours("saturday");
 sum += getSleepHours("sunday");
 console.log(sum);
+return sum;
 }
 
 getIdealSleepHours = () => {
